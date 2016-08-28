@@ -18,6 +18,7 @@ func main() {
     } else {
         fmt.Println("Invalid value", arg)
     }
+
 }
 
 func hailstone(n uint64) *node.Node {

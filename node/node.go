@@ -27,6 +27,6 @@ func (n *Node) TreeDepth() int {
     if n.Child != nil {
         return 1 + n.Child.TreeDepth()
     } else {
-        return 0
+        return 1
     }
 }
